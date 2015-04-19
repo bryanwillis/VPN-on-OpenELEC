@@ -1,0 +1,15 @@
+#! /bin/sh
+#	$Id: update-resolv,v 1.2 2014/10/06 06:47:00 lems Exp $
+#
+# This overwrites the default /etc/resolv.conf file with DNS servers
+# that are only reachable from within the VPN connection.
+# /storage/VPN-UP will be created once the VPN connection is up, via
+# the up script entry.
+
+while [ "x$applied" != "xtrue" ]; do
+	sleep 5s
+	if [ -f /storage/VPN-UP ]; then
+		cat /storage/.config/vpn/resolv.conf.vpn > /etc/resolv.conf
+		applied=true
+	fi
+done

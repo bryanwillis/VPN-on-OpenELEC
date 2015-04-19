@@ -1,0 +1,7 @@
+#! /bin/sh
+#	$Id: vpn-down,v 1.2 2014/10/06 06:47:00 lems Exp $
+#
+# This is run via the openvpn config file, restore /etc/resolv.conf
+
+rm -f /storage/VPN-UP
+cat /storage/.config/vpn/resolv.conf > /etc/resolv.conf
