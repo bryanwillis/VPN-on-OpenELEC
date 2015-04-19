@@ -11,5 +11,4 @@ provider.
 Copy all files into /storage/.config/vpn, then install Advanced Launcher and
 set up two launchers to my launch-vpn.sh and kill-vpn.sh scripts; you could
 add them to your favorites, for example. Get Advanced Launcher from here:
-<http://gwenael.ca/forum/announcements.php?aid=4> or download ZIP from
-<https://github.com/Angelscry/plugin.program.advanced.launcher>
+<http://gwenael.ca/forum/announcements.php?aid=4>
