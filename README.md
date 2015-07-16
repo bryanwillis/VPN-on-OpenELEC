@@ -9,6 +9,6 @@ overwrite the openvpn.conf file with the one from your VPN service, and
 change the IPs in resolv.conf.vpn if you're not using IPredator.
 
 Copy all files into /storage/.config/vpn, then install
-[Advanced Launcher](http://gwenael.ca/forum/announcements.php?aid=4) and set
-up two launchers to my launch-vpn.sh and kill-vpn.sh scripts; you could add
-them to your favorites, for example.
+[Advanced Launcher](https://github.com/Angelscry/plugin.program.advanced.launcher)
+and set up two launchers to my launch-vpn.sh and kill-vpn.sh scripts;
+you could add them to your favorites, for example.
